@@ -1,0 +1,49 @@
+.about {
+  background: #161b22;
+}
+
+.about-container {
+  display: flex;
+  gap: 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  align-items: center;
+  flex-wrap: wrap; /* zorgt voor stapelen op mobiel */
+}
+
+.about-image {
+  flex: 0 0 320px;
+  max-width: 320px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.about-image img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.about-text {
+  flex: 1;
+  color: #c9d1d9;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.about-text strong {
+  color: #58a6ff;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-image {
+    margin-bottom: 1.5rem;
+  }
+}
+

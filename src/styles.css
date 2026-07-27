@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  background-image: url('/bg.jpg');
+  background-image: url('/images/bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,4 +52,27 @@ body::before {
   background-position: center;
   filter: blur(4px) brightness(0.6);
   z-index: -1;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #58a6ff;
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+.section {
+  min-height: 50vh; /* vult volledige viewport */
+  padding: 0px 2rem 2rem; /* 100px top i.v.m. fixed header */
+  color: #c9d1d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
