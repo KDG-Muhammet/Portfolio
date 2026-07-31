@@ -3,7 +3,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;;
 }
 
 * {
@@ -75,4 +75,5 @@ body::before {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  scroll-margin-top: 90px;
 }
