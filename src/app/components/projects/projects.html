@@ -1,5 +1,5 @@
  <section id="projects" class="section projects">
-    <h2 class="section-title">Projects</h2>
+    <h2 class="section-title"> {{ 'PROJECTS.TITLE' | translate }}</h2>
 
     <div class="projects-grid">
       <!-- === PROJECT CARDS === -->
@@ -8,7 +8,7 @@
         <img [src]="project.image" [alt]="project.name" class="project-thumbnail" />
 
         <div class="project-info">
-          <h3 class="project-name">{{ project.name }}</h3>
+          <h3 class="project-name">  {{ project.name | translate }}</h3>
 
           <div class="project-bottom">
             <div class="project-tech">
@@ -17,7 +17,7 @@
               }
             </div>
           </div>
-          <button class="btn view-more" (click)="openProject(project)">More</button>
+          <button class="btn view-more" (click)="openProject(project)">{{ 'PROJECTS.MORE' | translate }}</button>
         </div>
       </div>
       }
@@ -25,7 +25,7 @@
       <!-- === QUOTE CARD === -->
       <div class="project-card quote-card">
         <p class="quote-text">
-          “Coming soon...”
+           {{ 'PROJECTS.QUOTE' | translate }}
         </p>
       </div>
     </div>
@@ -39,8 +39,8 @@
         <div class="modal-body">
           <!-- Linkerkant: tekst -->
           <div class="modal-text">
-            <h3>{{ selectedProject.name }}</h3>
-            <p class="modal-description" [innerHTML]="selectedProject.description"></p>
+            <h3>  {{ selectedProject.name | translate }}</h3>
+            <p class="modal-description" [innerHTML]="selectedProject.description | translate"></p>
 
             <div class="modal-footer">
               <div class="modal-tech">
@@ -57,7 +57,7 @@
               @if(selectedProject.showGithub) {
               <a [href]="selectedProject.github" target="_blank" class="btn github-link">
                 <img src="images/social/github-mark-white.svg" alt="GitHub" />
-                View Repo
+               {{ 'PROJECTS.VIEW_REPO' | translate }}
               </a>
             }
             </div>

@@ -1,10 +1,23 @@
 <header class="header">
   <div class="logo">Muhammet Murat</div>
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
+    <a href="#home">{{ 'NAV.HOME' | translate }}</a>
+    <a href="#about">{{ 'NAV.ABOUT' | translate }}</a>
+    <a href="#projects">{{ 'NAV.PROJECTS' | translate }}</a>
+    <a href="#skills">{{ 'NAV.SKILLS' | translate }}</a>
+    <a href="#contact">{{ 'NAV.CONTACT' | translate }}</a>
+    <div class="language-switch">
+      <button
+        [class.active]="currentLanguage === 'en'"
+        (click)="useLanguage('en')">
+        EN
+      </button>
+
+      <button
+        [class.active]="currentLanguage === 'nl'"
+        (click)="useLanguage('nl')">
+        NL
+      </button>
+    </div>
   </nav>
 </header>

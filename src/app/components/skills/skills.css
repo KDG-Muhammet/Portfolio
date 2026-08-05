@@ -15,7 +15,7 @@
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: clamp(0.75rem, 1.5vw, 1.5rem);
+  gap: clamp(0.75rem, 1vw, 1.5rem);
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 clamp(0.5rem, 2vw, 1rem);

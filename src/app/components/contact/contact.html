@@ -1,14 +1,14 @@
   <section id="contact" class="section contact">
-    <h2 class="section-title">Contact</h2>
+    <h2 class="section-title">{{ 'CONTACT.TITLE' | translate }}</h2>
 
     <div class="contact-container">
       <!-- Contact info -->
       <div class="contact-info">
-        <p>Heb je een vraag of wil je samenwerken? Stuur me gerust een bericht!</p>
+        <p>{{ 'CONTACT.DESCRIPTION' | translate }}</p>
 
         <div class="contact-links">
           <a href="mailto:muhammetmurat3@gmail.com" class="contact-link">
-            <img src="images/social/email.png" alt="Email icoon" class="contact-icon" />
+            <img src="images/social/email.png"  [alt]="'CONTACT.EMAIL_ALT' | translate" class="contact-icon" />
           </a>
 
           <a
@@ -16,17 +16,17 @@
             target="_blank"
             class="contact-link"
           >
-            <img src="images/social/LinkedIn.svg" alt="LinkedIn icoon" class="contact-icon" />
+            <img src="images/social/LinkedIn.svg"  [alt]="'CONTACT.LINKEDIN_ALT' | translate" class="contact-icon" />
           </a>
         </div>
       </div>
 
       <!-- Contact form -->
       <form class="contact-form" action="https://formspree.io/f/xjgdjdpq" method="POST">
-        <input type="text" name="name" placeholder="Naam" required />
-        <input type="email" name="email" placeholder="E-mail" required />
-        <textarea name="message" rows="15" placeholder="Bericht" required></textarea>
-        <button type="submit">Verstuur</button>
+        <input type="text" name="name" [placeholder]="'CONTACT.NAME_PLACEHOLDER' | translate" required />
+        <input type="email" name="email" [placeholder]="'CONTACT.EMAIL_PLACEHOLDER' | translate" required />
+        <textarea name="message" rows="15" [placeholder]="'CONTACT.MESSAGE_PLACEHOLDER' | translate" required></textarea>
+        <button type="submit">{{ 'CONTACT.BUTTON' | translate }}</button>
       </form>
     </div>
   </section>

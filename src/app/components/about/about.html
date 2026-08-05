@@ -1,23 +1,14 @@
   <section id="about" class="section about">
-    <h2 class="section-title">About me</h2>
+    <h2 class="section-title">{{ 'ABOUT.TITLE' | translate }}</h2>
 
     <div class="about-container">
-      <!-- Foto (optioneel) -->
       <div class="about-image">
-        <img src="images/muhammet.png" alt="Profielfoto" />
+        <img src="images/muhammet.png"  [alt]="'ABOUT.IMAGE_ALT' | translate" />
       </div>
 
       <!-- Tekst -->
       <div class="about-text">
-        <p>
-          I am a <strong>Full-Stack Developer</strong> with a passion for both frontend and backend
-          technologies. I enjoy working with <strong>Java</strong> , <strong>.NET,</strong> and
-          <strong>React</strong>
-          solving complex problems, and building clean, user-friendly interfaces. I have experience
-          in designing and building efficient software solutions, and I’m always eager to learn and
-          grow my skills. I enjoy connecting with others and collaborating on innovative and
-          impactful projects.
-        </p>
+        <p [innerHTML]="'ABOUT.DESCRIPTION' | translate"></p>
       </div>
     </div>
   </section>

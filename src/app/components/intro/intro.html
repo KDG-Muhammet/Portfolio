@@ -2,27 +2,27 @@
     <div class="home-content">
       <!-- Linkerkant: tekst -->
       <div class="home-text">
-        <h2 class="subtitle">A Full Stack Developer</h2>
-        <h1 class="title">Hi,I am <span class="accent">Muhammet</span></h1>
-        <p class="location">📍 Based in Antwerp, Belgium</p>
+        <h2 class="subtitle"> {{ 'HOME.SUBTITLE' | translate }}</h2>
+        <h1 class="title">{{ 'HOME.TITLE' | translate }} <span class="accent">{{ 'HOME.NAME' | translate }}</span></h1>
+        <p class="location">📍 {{ 'HOME.LOCATION' | translate }}</p>
       </div>
 
       <!-- Rechterkant: foto + icons -->
       <div class="home-photo">
-        <img src="images/muhammet.png" alt="Muhammet portrait" class="profile-img" />
+        <img src="images/muhammet.png" [alt]="'HOME.PROFILE_ALT' | translate" class="profile-img" />
 
         <div class="social-links">
           <a href="https://github.com/KDG-Muhammet" target="_blank">
-            <img src="images/social/github-mark-white.svg" alt="GitHub" />
+            <img src="images/social/github-mark-white.svg" [alt]="'HOME.GITHUB_ALT' | translate" />
           </a>
           <a href="https://www.linkedin.com/in/muhammet-murat-mm3/" target="_blank">
-            <img src="images/social/LinkedIn.svg" alt="LinkedIn" />
+            <img src="images/social/LinkedIn.svg"  [alt]="'HOME.LINKEDIN_ALT' | translate" />
           </a>
           <a href="mailto:muhammetmurat3@gmail.com">
-            <img src="images/social/email.png" alt="Email" />
+            <img src="images/social/email.png" [alt]="'HOME.EMAIL_ALT' | translate" />
           </a>
-          <a href="/CV.pdf" target="_blank">
-            <img src="images/cv.png" alt="CV" />
+          <a href="CV.pdf" target="_blank">
+            <img src="images/cv.png" [alt]="'HOME.CV_ALT' | translate" />
           </a>
         </div>
       </div>

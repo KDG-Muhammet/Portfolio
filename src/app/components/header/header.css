@@ -87,4 +87,34 @@ nav a:hover::after {
   }
 }
 
+.language-switch {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.language-switch button {
+  background: transparent;
+  color: #c9d1d9;
+  border: 1px solid rgba(88, 166, 255, 0.4);
+  border-radius: 8px;
+  padding: 0.35rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.language-switch button:hover {
+  background: #58a6ff;
+  color: #0d1117;
+  border-color: #58a6ff;
+}
+
+.language-switch button.active {
+  background: #58a6ff;
+  color: #0d1117;
+  border-color: #58a6ff;
+}
+
 
