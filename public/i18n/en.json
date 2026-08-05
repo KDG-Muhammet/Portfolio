@@ -1,0 +1,103 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "PROJECTS": "Projects",
+    "SKILLS": "Skills",
+    "CONTACT": "Contact"
+  },
+
+  "HOME": {
+    "SUBTITLE": "A Full Stack Developer",
+    "TITLE": "Hi, I am",
+    "NAME": "Muhammet",
+    "LOCATION": "Based in Antwerp, Belgium",
+    "PROFILE_ALT": "Muhammet portrait",
+    "GITHUB_ALT": "GitHub",
+    "LINKEDIN_ALT": "LinkedIn",
+    "EMAIL_ALT": "Email",
+    "CV_ALT": "CV"
+  },
+  
+   "PROJECTS": {
+    "TITLE": "Projects",
+    "MORE": "More",
+    "VIEW_REPO": "Repo",
+    "QUOTE": "Coming soon...",
+
+    "POKER": {
+      "NAME": "Poker Game",
+      "DESCRIPTION": "During my college year I worked with four other developers to create an online Poker game.\n\nThe project took about six weeks and used <strong>Spring Boot</strong> for the backend, <strong>React</strong> for the frontend, and <strong>Keycloak</strong> for security.\n\nThis experience helped me strengthen my skills in <strong>Java</strong> and <strong>TypeScript</strong>, and taught me how to collaborate effectively: brainstorming features, creating issues, and delivering as a team."   
+    },
+
+    "PORTFOLIO": {
+      "NAME": "Portfolio Website",
+      "DESCRIPTION": "My personal portfolio built with <strong>Angular</strong> and <strong>TypeScript</strong> to showcase my projects and skills."
+    },
+
+    "VR": {
+      "NAME": "VR Marker App",
+      "DESCRIPTION": "Together with my team I developed an interactive <strong>VR application</strong> that lets prospective students experience the <strong>Applied Informatics</strong> program at <strong>KdG University</strong>. <br /><br />Users explore a series of linked <strong>360° scenes</strong> from project labs and Cisco networking lessons to campus life in the cafeteria—while freely looking around in a VR headset. Interactive <strong>markers</strong> reveal extra information or allow navigation to other scenes. Audio, scene descriptions, and optional <strong>gamification</strong> elements (like quizzes) enhance the experience. <br /><br />A custom <strong>admin interface</strong> makes the platform fully configurable: staff can upload new 360° assets, define markers, link scenes, add audio, and set loop points without any code changes. <br /><br />This project sharpened my skills in <strong>Unity</strong>, <strong>360° media integration</strong>, and building user-friendly configuration tools, while providing valuable experience in collaborating with a real client and working with cutting-edge VR technology."    }
+  }
+  ,
+   "ABOUT": {
+    "TITLE": "About Me",
+    "IMAGE_ALT": "Profile picture",
+    "DESCRIPTION": "I am a <strong>Full-Stack Developer</strong> with a passion for both frontend and backend technologies. I enjoy working with <strong>Java</strong>, <strong>.NET</strong>, and <strong>React</strong>, solving complex problems, and building clean, user-friendly interfaces. I have experience in designing and building efficient software solutions, and I’m always eager to learn and grow my skills. I enjoy connecting with others and collaborating on innovative and impactful projects."
+  },
+   "SKILLS": {
+    "TITLE": "Technologies",
+    "SUBTITLE": "These are the technologies I specialize in the most.",
+
+    "JAVA": {
+      "DESCRIPTION": "Backend language"
+    },
+
+    "REACT": {
+      "DESCRIPTION": "Frontend library"
+    },
+
+    "TYPESCRIPT": {
+      "DESCRIPTION": "Typed JavaScript"
+    },
+
+    "TAILWIND": {
+      "DESCRIPTION": "Utility-first CSS framework"
+    },
+
+    "CSHARP": {
+      "DESCRIPTION": "Backend development"
+    },
+
+    "DOTNET": {
+      "DESCRIPTION": "Web backend framework"
+    },
+
+    "HTML": {
+      "DESCRIPTION": "Web structure"
+    },
+
+    "CSS": {
+      "DESCRIPTION": "Web styling & design"
+    },
+
+    "SPRING": {
+      "DESCRIPTION": "Backend framework for Java"
+    },
+
+    "LINKEDIN": {
+      "TITLE": "Other Skills",
+      "DESCRIPTION": "See more on my LinkedIn"
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Contact",
+    "DESCRIPTION": "Have a question or want to work together? Feel free to send me a message!",
+    "EMAIL_ALT": "Email icon",
+    "LINKEDIN_ALT": "LinkedIn icon",
+    "NAME_PLACEHOLDER": "Name",
+    "EMAIL_PLACEHOLDER": "Email",
+    "MESSAGE_PLACEHOLDER": "Message",
+    "BUTTON": "Send"
+  }
+}

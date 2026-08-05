@@ -1,0 +1,106 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "Over mij",
+    "PROJECTS": "Projecten",
+    "SKILLS": "Skills",
+    "CONTACT": "Contact"
+  },
+
+    "HOME": {
+    "SUBTITLE": "Een Full Stack Developer",
+    "TITLE": "Hoi, ik ben",
+    "NAME": "Muhammet",
+    "LOCATION": "Gevestigd in Antwerpen, België",
+    "PROFILE_ALT": "Portret van Muhammet",
+    "GITHUB_ALT": "GitHub",
+    "LINKEDIN_ALT": "LinkedIn",
+    "EMAIL_ALT": "E-mail",
+    "CV_ALT": "CV"
+  },
+
+  "PROJECTS": {
+    "TITLE": "Projecten",
+    "MORE": "Meer",
+    "VIEW_REPO": "Repo",
+    "QUOTE": "Binnenkort beschikbaar...",
+
+    "POKER": {
+      "NAME": "Poker Game",
+      "DESCRIPTION": "Tijdens mijn opleiding werkte ik samen met vier andere ontwikkelaars aan een online Poker-spel.\n\nHet project duurde ongeveer zes weken en maakte gebruik van <strong>Spring Boot</strong> voor de backend, <strong>React</strong> voor de frontend en <strong>Keycloak</strong> voor de beveiliging.\n\nDeze ervaring hielp mij mijn vaardigheden in <strong>Java</strong> en <strong>TypeScript</strong> verder te ontwikkelen en leerde mij hoe ik efficiënt kan samenwerken: brainstormen over functionaliteiten, issues aanmaken en als team een project succesvol opleveren."
+    },
+
+    "PORTFOLIO": {
+      "NAME": "Portfolio Website",
+      "DESCRIPTION": "Mijn persoonlijke portfolio, gebouwd met <strong>Angular</strong> en <strong>TypeScript</strong>, om mijn projecten en vaardigheden te presenteren."
+    },
+
+    "VR": {
+      "NAME": "VR Marker App",
+      "DESCRIPTION": "Samen met mijn team ontwikkelde ik een interactieve <strong>VR-applicatie</strong> waarmee toekomstige studenten de opleiding <strong>Toegepaste Informatica</strong> aan de <strong>Karel de Grote Hogeschool (KdG)</strong> kunnen beleven.<br /><br />Gebruikers verkennen een reeks gekoppelde <strong>360°-scènes</strong>, variërend van projectlokalen en Cisco-netwerklessen tot het studentenleven in de cafetaria, terwijl ze vrij kunnen rondkijken met een VR-headset. Interactieve <strong>markers</strong> tonen extra informatie of laten gebruikers naar andere scènes navigeren. Audio, scènebeschrijvingen en optionele <strong>gamification</strong>-elementen (zoals quizzen) verrijken de ervaring.<br /><br />Een aangepaste <strong>beheerinterface</strong> maakt het platform volledig configureerbaar: medewerkers kunnen nieuwe 360°-beelden uploaden, markers definiëren, scènes koppelen, audio toevoegen en looppunten instellen zonder code aan te passen.<br /><br />Dit project heeft mijn vaardigheden in <strong>Unity</strong>, <strong>360°-mediaintegratie</strong> en het bouwen van gebruiksvriendelijke configuratietools verder ontwikkeld. Daarnaast deed ik waardevolle ervaring op in het samenwerken met een echte opdrachtgever en het werken met moderne VR-technologie."
+    }
+  },
+
+"ABOUT": {
+    "TITLE": "Over mij",
+    "IMAGE_ALT": "Profielfoto",
+    "DESCRIPTION": "Ik ben een <strong>Full-Stack Developer</strong> met een passie voor zowel frontend- als backendtechnologieën. Ik werk graag met <strong>Java</strong>, <strong>.NET</strong> en <strong>React</strong> om complexe problemen op te lossen en overzichtelijke, gebruiksvriendelijke interfaces te bouwen. Ik heb ervaring met het ontwerpen en ontwikkelen van efficiënte softwareoplossingen en ben altijd gemotiveerd om mijn kennis en vaardigheden verder uit te breiden. Ik werk graag samen met anderen aan innovatieve en impactvolle projecten."
+  },
+
+"SKILLS": {
+    "TITLE": "Technologieën",
+    "SUBTITLE": "Dit zijn de technologieën waarin ik mij het meest heb gespecialiseerd.",
+
+    "JAVA": {
+      "DESCRIPTION": "Backend programmeer taal"
+    },
+
+    "REACT": {
+      "DESCRIPTION": "Frontend bibliotheek"
+    },
+
+    "TYPESCRIPT": {
+      "DESCRIPTION": "Getypeerd JavaScript"
+    },
+
+    "TAILWIND": {
+      "DESCRIPTION": "Utility-first CSS framework"
+    },
+
+    "CSHARP": {
+      "DESCRIPTION": "Backend ontwikkeling"
+    },
+
+    "DOTNET": {
+      "DESCRIPTION": "Backend webframework"
+    },
+
+    "HTML": {
+      "DESCRIPTION": "Web structuur"
+    },
+
+    "CSS": {
+      "DESCRIPTION": "Webopmaak & design"
+    },
+
+    "SPRING": {
+      "DESCRIPTION": "Backend framework voor Java"
+    },
+
+    "LINKEDIN": {
+      "TITLE": "Andere skills",
+      "DESCRIPTION": " Meer op LinkedIn"
+    }
+  },
+
+  "CONTACT": {
+    "TITLE": "Contact",
+    "DESCRIPTION": "Heb je een vraag of wil je samenwerken? Stuur me gerust een bericht!",
+    "EMAIL_ALT": "E-mailicoon",
+    "LINKEDIN_ALT": "LinkedIn-icoon",
+    "NAME_PLACEHOLDER": "Naam",
+    "EMAIL_PLACEHOLDER": "E-mailadres",
+    "MESSAGE_PLACEHOLDER": "Bericht",
+    "BUTTON": "Versturen"
+  }
+}
